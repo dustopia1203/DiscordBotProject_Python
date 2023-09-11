@@ -29,6 +29,7 @@ async def on_ready():
 
 @bot.command()
 async def clear(ctx, ammount=""):
+    ''' Clear messages '''
     if ammount == "" or ammount == "all":
         await ctx.channel.purge(limit=None)
     else:
