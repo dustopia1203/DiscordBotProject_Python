@@ -15,6 +15,7 @@ BARDAPI_KEY = os.getenv('BARDAPI_KEY')
 WEATHER_KEY = os.getenv('OPENWEATHERMAP_KEY')
 
 
+bard = Bard(token=BARDAPI_KEY)
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
@@ -84,6 +85,39 @@ async def weather(ctx, *, location):
         await ctx.send(weather_report)
     else:
         await ctx.send(f"Could not find weather information for {location}")
+
+
+@bot.command()
+async def ask(ctx, *, question):
+    ''' Ask BARD AI a question '''
+    try:
+        check = False
+        channel = bot.get_channel(CHANNEL_ID)
+        await channel.send(f"Sure 😊! Waiting for a moment...")
+        response = bard.get_answer(question)["content"]
+        if len(response) < 2000:
+            await ctx.send(response)
+        else:
+            answer = response.split("\n")
+            images = list(bard.get_answer(question)["images"])
+            for paragraph in answer:
+                if paragraph == "":
+                    continue
+                elif paragraph.startswith("[Image"):
+                    check = True
+                await ctx.send(paragraph)
+            if check:
+                await ctx.send("Some images I can find: ")
+                for image in images:
+                    await ctx.send(image)
+    except Exception as e:
+        error_message = (
+            f"**Error 😣:**\n\n"
+            f"```\n"
+            f"{str(e)}\n"
+            f"```\n"
+        )
+        await ctx.send(error_message)
 
 
 bot.run(BOT_TOKEN)
