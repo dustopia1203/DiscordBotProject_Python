@@ -1,8 +1,8 @@
-import discord
+import nextcord
 import os
 import requests
 
-from discord.ext import commands
+from nextcord.ext import commands
 from dotenv import load_dotenv
 
 
@@ -44,5 +44,5 @@ class Weather(commands.Cog):
             await ctx.send(f"Could not find weather information for {location}")
 
 
-async def setup(bot):
-    await bot.add_cog(Weather(bot))
+def setup(bot):
+    bot.add_cog(Weather(bot))

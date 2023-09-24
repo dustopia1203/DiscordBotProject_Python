@@ -1,4 +1,7 @@
 dotenv
 requests
 bardapi
-discord
+nextcord
+ffmpeg
+PyNaCl
+youtube_dl

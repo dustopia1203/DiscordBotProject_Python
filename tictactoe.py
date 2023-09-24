@@ -1,4 +1,4 @@
-import discord
+import nextcord
 import asyncio
 
 BLANK = "BLANK"

@@ -1,8 +1,8 @@
-import discord
+import nextcord
 import os
 import asyncio
 
-from discord.ext import commands
+from nextcord.ext import commands
 from dotenv import load_dotenv
 
 
@@ -11,7 +11,7 @@ BOT_TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 CHANNEL_ID = int(os.getenv('CHANNEL_DISCORD_ID'))
 
 
-intents = discord.Intents.default()
+intents = nextcord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 
@@ -44,15 +44,9 @@ async def cls(ctx, ammount=""):
         await ctx.channel.purge(limit=int(ammount))
 
 
-async def load():
-    for fileName in os.listdir("./cogs"):
-        if fileName.endswith(".py"):
-            await bot.load_extension(f"cogs.{fileName[:-3]}")
+for fileName in os.listdir("./cogs"):
+    if fileName.endswith(".py"):
+        bot.load_extension(f"cogs.{fileName[:-3]}")
 
 
-async def main():
-    await load()
-    await bot.start(BOT_TOKEN)
-
-
-asyncio.run(main())
+bot.run(BOT_TOKEN)

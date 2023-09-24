@@ -1,8 +1,8 @@
-import discord
+import nextcord
 import os
 import asyncio
 
-from discord.ext import commands
+from nextcord.ext import commands
 from dotenv import load_dotenv
 from bardapi import Bard
 
@@ -53,5 +53,5 @@ class BardAI(commands.Cog):
             await ctx.send(error_message)
 
 
-async def setup(bot):
-    await bot.add_cog(BardAI(bot))
+def setup(bot):
+    bot.add_cog(BardAI(bot))
