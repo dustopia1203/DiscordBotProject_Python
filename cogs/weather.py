@@ -1,9 +1,8 @@
-import nextcord
+import discord
+from discord.ext import commands
 import os
-import requests
-
-from nextcord.ext import commands
 from dotenv import load_dotenv
+import requests
 
 
 WEATHER_KEY = os.getenv('OPENWEATHERMAP_KEY')
@@ -44,5 +43,5 @@ class Weather(commands.Cog):
             await ctx.send(f"Could not find weather information for {location}")
 
 
-def setup(bot):
-    bot.add_cog(Weather(bot))
+async def setup(bot):
+    await bot.add_cog(Weather(bot))

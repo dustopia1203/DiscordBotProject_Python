@@ -1,19 +1,20 @@
-import nextcord
+import discord
+from discord.ext import commands
 import os
-import asyncio
-
-from nextcord.ext import commands
 from dotenv import load_dotenv
+import asyncio
 
 
 load_dotenv()
+
+
 BOT_TOKEN = os.getenv('DISCORD_BOT_TOKEN') 
-CHANNEL_ID = int(os.getenv('CHANNEL_DISCORD_ID'))
 
 
-intents = nextcord.Intents.default()
+intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
+CHANNEL_ID = int(os.getenv('CHANNEL_DISCORD_ID'))
 
 
 @bot.event
@@ -36,7 +37,7 @@ async def on_member_remove(member):
 
 
 @bot.command()
-async def cls(ctx, ammount=""):
+async def clear(ctx, ammount=""):
     ''' Clear messages '''
     if ammount == "" or ammount == "all":
         await ctx.channel.purge(limit=None)
@@ -44,9 +45,15 @@ async def cls(ctx, ammount=""):
         await ctx.channel.purge(limit=int(ammount))
 
 
-for fileName in os.listdir("./cogs"):
-    if fileName.endswith(".py"):
-        bot.load_extension(f"cogs.{fileName[:-3]}")
+async def load():
+    for fileName in os.listdir("./cogs"):
+        if fileName.endswith(".py"):
+            await bot.load_extension(f"cogs.{fileName[:-3]}")
 
 
-bot.run(BOT_TOKEN)
+async def main():
+    await load()
+    await bot.start(BOT_TOKEN)
+
+
+asyncio.run(main())
