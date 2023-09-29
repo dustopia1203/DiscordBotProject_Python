@@ -1,4 +1,4 @@
-import discord
+import nextcord
 import asyncio
 import random
 
@@ -7,7 +7,7 @@ choice = ['🪨', '📄', '✂️']
 async def rps(ctx, bot):
     check = True
     while check:
-        msg = await ctx.send(embed=discord.Embed(
+        msg = await ctx.send(embed=nextcord.Embed(
             title='Rock-paper-scissors!',
             description='Choose your weapon!\nTo exit, click ❌.'))
         await msg.add_reaction('🪨')

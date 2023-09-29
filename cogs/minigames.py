@@ -1,6 +1,7 @@
-import discord
-from discord.ext import commands
+import nextcord
 import asyncio
+
+from nextcord.ext import commands
 from tictactoe import *
 from rps import *
 
@@ -13,7 +14,7 @@ class MiniGames(commands.Cog):
     @commands.command()
     async def load_game(self, ctx):
         bot = self.bot
-        embed = discord.Embed(
+        embed = nextcord.Embed(
             title='Choose game:\n',
             description='1. Tic-Tac-Toe! \n2. Rock-paper-scissors.',
         )
@@ -41,5 +42,5 @@ class MiniGames(commands.Cog):
                 await ctx.send('Cancelled.')
 
 
-async def setup(bot):
-    await bot.add_cog(MiniGames(bot))
+def setup(bot):
+    bot.add_cog(MiniGames(bot))

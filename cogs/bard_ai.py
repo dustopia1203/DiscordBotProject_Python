@@ -1,15 +1,18 @@
-import discord
-from discord.ext import commands
+import nextcord
 import os
-from bardapi import Bard
-from dotenv import load_dotenv
 import asyncio
+
+from nextcord.ext import commands
+from dotenv import load_dotenv
+from bardapi import Bard
 
 
 load_dotenv()
 BARDAPI_KEY = os.getenv('BARDAPI_KEY')
-bard = Bard(token=BARDAPI_KEY)
 CHANNEL_ID = int(os.getenv('CHANNEL_DISCORD_ID'))
+
+
+bard = Bard(token=BARDAPI_KEY)
 
 
 class BardAI(commands.Cog):
@@ -50,5 +53,5 @@ class BardAI(commands.Cog):
             await ctx.send(error_message)
 
 
-async def setup(bot):
-    await bot.add_cog(BardAI(bot))
+def setup(bot):
+    bot.add_cog(BardAI(bot))
