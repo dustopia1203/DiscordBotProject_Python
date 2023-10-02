@@ -11,7 +11,7 @@ BOT_TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 CHANNEL_ID = int(os.getenv('CHANNEL_DISCORD_ID'))
 
 
-intents = discord.Intents.default()
+intents = discord.Intents.all()
 intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 
