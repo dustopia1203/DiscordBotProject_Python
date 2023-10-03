@@ -1,0 +1,791 @@
+2023-10-03 00:06:47.411  INFO 17672 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 20.0.1 on NHHPc with PID 17672 (D:\Code\SubProjects\DiscordBotProject_Python\lavalink\Lavalink.jar started by 84899 in D:\Code\SubProjects\DiscordBotProject_Python\lavalink)
+2023-10-03 00:06:47.423  INFO 17672 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2023-10-03 00:06:48.258  INFO 17672 --- [main] lavalink.server.Launcher                 : Started Launcher in 1.406 seconds (JVM running for 1.841)
+2023-10-03 00:06:48.262  INFO 17672 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/lavalink-devs/Lavalink/issues/295
+2023-10-03 00:06:48.315  INFO 17672 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.7.8
+	Build time:     03.08.2023 15:46:57 UTC
+	Branch          HEAD
+	Commit:         439f122
+	Commit time:    03.08.2023 15:32:39 UTC
+	JVM:            20.0.1
+	Lavaplayer      1.5.0
+
+2023-10-03 00:06:48.323  INFO 17672 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2023-10-03 00:06:49.098  WARN 17672 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-10-03 00:06:49.132  INFO 17672 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2023-10-03 00:06:49.133  INFO 17672 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 806 ms
+2023-10-03 00:06:49.307  INFO 17672 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2023-10-03 00:06:50.166  INFO 17672 --- [main] lavalink.server.config.KoeConfiguration  : OS: WINDOWS, Arch: X86_64
+2023-10-03 00:06:50.166  INFO 17672 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2023-10-03 00:06:50.168  INFO 17672 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2023-10-03 00:06:50.174  INFO 17672 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2023-10-03 00:06:50.209  WARN 17672 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2023-10-03 00:06:50.398  INFO 17672 --- [main] io.undertow                              : starting server: Undertow - 2.2.16.Final
+2023-10-03 00:06:50.405  INFO 17672 --- [main] org.xnio                                 : XNIO version 3.8.6.Final
+2023-10-03 00:06:50.414  INFO 17672 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.6.Final
+2023-10-03 00:06:50.498  INFO 17672 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2023-10-03 00:06:50.544  INFO 17672 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 2333 (http)
+2023-10-03 00:06:50.548  INFO 17672 --- [main] lavalink.server.Launcher                 : Started Launcher in 2.279 seconds (JVM running for 4.132)
+2023-10-03 00:06:50.550  INFO 17672 --- [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2023-10-03 00:06:59.553  INFO 17672 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-03 00:06:59.553  INFO 17672 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-03 00:06:59.554  INFO 17672 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-03 00:06:59.569  INFO 17672 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:52527
+2023-10-03 00:06:59.584  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 00:06:59.618  INFO 17672 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 00:06:59.827  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 00:07:44.383  INFO 17672 --- [XNIO-1 I/O-9] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:52527 -- CloseStatus[code=1006, reason=]
+2023-10-03 00:07:44.384  INFO 17672 --- [XNIO-1 I/O-9] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 00:13:15.288  INFO 17672 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:52755
+2023-10-03 00:13:15.291  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 00:13:15.293  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 00:13:15.294  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 00:16:15.313  INFO 17672 --- [XNIO-1 I/O-16] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:52755 -- CloseStatus[code=1006, reason=]
+2023-10-03 00:16:15.313  INFO 17672 --- [XNIO-1 I/O-16] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 00:16:21.440  INFO 17672 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:52867
+2023-10-03 00:16:21.442  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 00:16:21.444  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 00:16:21.445  INFO 17672 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 00:17:40.087  INFO 17672 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:52867 -- CloseStatus[code=1006, reason=]
+2023-10-03 00:17:40.087  INFO 17672 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 00:17:46.768  INFO 17672 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:52911
+2023-10-03 00:17:46.773  INFO 17672 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 00:17:46.774  INFO 17672 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 00:17:46.776  INFO 17672 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 00:19:10.499  INFO 17672 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:52911 -- CloseStatus[code=1006, reason=]
+2023-10-03 00:19:10.500  INFO 17672 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 00:19:18.198  INFO 17672 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:52953
+2023-10-03 00:19:18.200  INFO 17672 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 00:19:18.201  INFO 17672 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 00:19:18.204  INFO 17672 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 00:19:19.708  INFO 17672 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/m6weizljkm2cjfcm/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "64e8d7e6afda23f36f946d7d7ce781fd", "token": "61e1c0c2c4682665", "endpoint": "hongkong11020.discord.media:443"}}
+2023-10-03 00:21:14.926  INFO 17672 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:52953 -- CloseStatus[code=1006, reason=]
+2023-10-03 00:21:14.927  INFO 17672 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 00:22:02.877  INFO 17672 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:53055
+2023-10-03 00:22:02.878  INFO 17672 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 00:22:02.880  INFO 17672 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 00:22:02.882  INFO 17672 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 00:22:13.748  INFO 17672 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=Zasx9hjo4WY"
+2023-10-03 00:22:13.753  WARN 17672 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : YouTube auth tokens can't be retrieved because email and password is not set in YoutubeAudioSourceManager, age restricted videos will throw exceptions.
+2023-10-03 00:22:14.281  INFO 17672 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is null).
+2023-10-03 00:22:14.329  INFO 17672 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/ubpcbhc40v2x2qdr/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"voice": {"sessionId": "46f71fbe922d6db00ee4b0d620cbd791", "token": "61e1c0c2c4682665", "endpoint": "hongkong11020.discord.media:443"}}
+2023-10-03 00:22:14.442  INFO 17672 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtFMEJhRmVoeXY3WSjG-OuoBjIICgJWThICGgA6CiCGwuzD5oi_jWU%3D, next update will be after 600 seconds.
+2023-10-03 00:22:14.543  INFO 17672 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Ignite (ft. Zedd) | Worlds 2016 - League of Legends
+2023-10-03 00:22:14.583  INFO 17672 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=https://www.youtube.com/watch?v=Zasx9hjo4WY, client=127.0.0.1
+2023-10-03 00:22:14.596  INFO 17672 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/ubpcbhc40v2x2qdr/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAANy0AALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 00:22:14.599  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAANy0AALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 00:22:14.962  INFO 17672 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$786/0x00000008017709d0@51783033
+2023-10-03 00:22:14.966  INFO 17672 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: successfully loaded.
+2023-10-03 00:22:14.967  INFO 17672 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2023-10-03 00:22:14.987  INFO 17672 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2023-10-03 00:23:06.261  INFO 17672 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:53055 -- CloseStatus[code=1006, reason=]
+2023-10-03 00:23:06.262  INFO 17672 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2023-10-03 00:23:27.016  INFO 17672 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:53100
+2023-10-03 00:23:27.017  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 00:23:27.018  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 00:23:27.020  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 00:23:30.026  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/1pmm5a3y19j13gp2/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "7826131b3e48f2c298e5bc67b686d4bc", "token": "61e1c0c2c4682665", "endpoint": "hongkong11020.discord.media:443"}}
+2023-10-03 00:23:51.148  INFO 17672 --- [XNIO-1 I/O-13] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:53100 -- CloseStatus[code=1006, reason=]
+2023-10-03 00:23:51.149  INFO 17672 --- [XNIO-1 I/O-13] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 00:25:45.819  INFO 17672 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:53166
+2023-10-03 00:25:45.820  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 00:25:45.822  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 00:25:45.823  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 00:25:50.588  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/1dhfgy7xi0ybh6ud/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "059a007a6b39b4ef5ee5821555cf8e86", "token": "69fb127bf403d112", "endpoint": "hongkong11020.discord.media:443"}}
+2023-10-03 00:25:56.154  INFO 17672 --- [XNIO-1 I/O-9] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:53166 -- CloseStatus[code=1006, reason=]
+2023-10-03 00:25:56.154  INFO 17672 --- [XNIO-1 I/O-9] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 00:27:02.009  INFO 17672 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:53226
+2023-10-03 00:27:02.011  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 00:27:02.012  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 00:27:02.013  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 00:27:15.347  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/pgh5qwsgpyv063ie/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "a279a48a09d697269662c7c9052eaac9", "token": "69fb127bf403d112", "endpoint": "hongkong11020.discord.media:443"}}
+2023-10-03 00:27:20.723  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : DELETE /v3/sessions/pgh5qwsgpyv063ie/players/1150651592589189130, client=127.0.0.1
+2023-10-03 00:28:27.951  INFO 17672 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:53226 -- CloseStatus[code=1006, reason=]
+2023-10-03 00:28:27.952  INFO 17672 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 00:28:34.232  INFO 17672 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:53274
+2023-10-03 00:28:34.234  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 00:28:34.235  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 00:28:34.237  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 00:28:45.164  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/ywq7y95qup5jg56j/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "f2f1d3d0b03089a96c9ea7fa5253107d", "token": "1ccd3a2c4497ceb2", "endpoint": "hongkong11020.discord.media:443"}}
+2023-10-03 00:29:17.000  INFO 17672 --- [XNIO-1 I/O-16] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:53274 -- CloseStatus[code=1006, reason=]
+2023-10-03 00:29:17.000  INFO 17672 --- [XNIO-1 I/O-16] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 00:34:53.185  INFO 17672 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:53487
+2023-10-03 00:34:53.187  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 00:34:53.188  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 00:34:53.190  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 00:34:59.321  INFO 17672 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/bmlbrqunqavl7m29/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "8332806a82f11b643bd9a448fab6e724", "token": "2416d5e7d7232546", "endpoint": "hongkong11020.discord.media:443"}}
+2023-10-03 00:36:42.274  INFO 17672 --- [XNIO-1 I/O-12] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:53487 -- CloseStatus[code=1006, reason=]
+2023-10-03 00:36:42.274  INFO 17672 --- [XNIO-1 I/O-12] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 10:05:39.283  INFO 16344 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 20.0.1 on NHHPc with PID 16344 (D:\Code\SubProjects\DiscordBotProject_Python\lavalink\Lavalink.jar started by 84899 in D:\Code\SubProjects\DiscordBotProject_Python\lavalink)
+2023-10-03 10:05:39.297  INFO 16344 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2023-10-03 10:05:40.101  INFO 16344 --- [main] lavalink.server.Launcher                 : Started Launcher in 1.445 seconds (JVM running for 1.91)
+2023-10-03 10:05:40.106  INFO 16344 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/lavalink-devs/Lavalink/issues/295
+2023-10-03 10:05:40.150  INFO 16344 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.7.8
+	Build time:     03.08.2023 15:46:57 UTC
+	Branch          HEAD
+	Commit:         439f122
+	Commit time:    03.08.2023 15:32:39 UTC
+	JVM:            20.0.1
+	Lavaplayer      1.5.0
+
+2023-10-03 10:05:40.156  INFO 16344 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2023-10-03 10:05:41.012  WARN 16344 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-10-03 10:05:41.041  INFO 16344 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2023-10-03 10:05:41.041  INFO 16344 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 880 ms
+2023-10-03 10:05:41.192  INFO 16344 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2023-10-03 10:05:42.174  INFO 16344 --- [main] lavalink.server.config.KoeConfiguration  : OS: WINDOWS, Arch: X86_64
+2023-10-03 10:05:42.174  INFO 16344 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2023-10-03 10:05:42.177  INFO 16344 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2023-10-03 10:05:42.183  INFO 16344 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2023-10-03 10:05:42.221  WARN 16344 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2023-10-03 10:05:42.408  INFO 16344 --- [main] io.undertow                              : starting server: Undertow - 2.2.16.Final
+2023-10-03 10:05:42.418  INFO 16344 --- [main] org.xnio                                 : XNIO version 3.8.6.Final
+2023-10-03 10:05:42.428  INFO 16344 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.6.Final
+2023-10-03 10:05:42.540  INFO 16344 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2023-10-03 10:05:42.584  INFO 16344 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 2333 (http)
+2023-10-03 10:05:42.588  INFO 16344 --- [main] lavalink.server.Launcher                 : Started Launcher in 2.479 seconds (JVM running for 4.397)
+2023-10-03 10:05:42.590  INFO 16344 --- [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2023-10-03 10:05:56.598  INFO 16344 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-03 10:05:56.598  INFO 16344 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-03 10:05:56.599  INFO 16344 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-03 10:05:56.613  INFO 16344 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:55494
+2023-10-03 10:05:56.631  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 10:05:56.663  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 10:05:56.840  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 10:06:00.604  INFO 16344 --- [XNIO-1 I/O-16] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:55494 -- CloseStatus[code=1006, reason=]
+2023-10-03 10:06:00.604  INFO 16344 --- [XNIO-1 I/O-16] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 10:06:17.387  INFO 16344 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:55510
+2023-10-03 10:06:17.389  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 10:06:17.391  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 10:06:17.394  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 10:06:51.514  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/hjtdpaimynqri2sj/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"voice": {"sessionId": "1553133bc0129a77a7b25f6ca22b0eca", "token": "d5de91f967abdfdb", "endpoint": "hongkong1262.discord.media:443"}}
+2023-10-03 10:07:00.497  INFO 16344 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:55510 -- CloseStatus[code=1006, reason=]
+2023-10-03 10:07:00.497  INFO 16344 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 10:07:09.494  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:55544
+2023-10-03 10:07:09.496  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 10:07:09.497  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 10:07:09.499  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 10:07:11.323  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ignite"
+2023-10-03 10:07:11.823  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ignite
+2023-10-03 10:07:11.872  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:ignite, client=127.0.0.1
+2023-10-03 10:07:23.093  INFO 16344 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:55544 -- CloseStatus[code=1006, reason=]
+2023-10-03 10:07:23.093  INFO 16344 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 10:08:02.278  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:55574
+2023-10-03 10:08:02.280  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 10:08:02.282  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 10:08:02.284  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 10:08:10.480  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/u8xgff4tjuz8ywlt/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "3ef7f2d78014ee7c168d800458e9dd4d", "token": "d5de91f967abdfdb", "endpoint": "hongkong1262.discord.media:443"}}
+2023-10-03 10:08:12.808  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : DELETE /v3/sessions/u8xgff4tjuz8ywlt/players/1150651592589189130, client=127.0.0.1
+2023-10-03 10:08:16.232  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/u8xgff4tjuz8ywlt/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "3ef7f2d78014ee7c168d800458e9dd4d", "token": "6cd045f674bc1a81", "endpoint": "hongkong1262.discord.media:443"}}
+2023-10-03 10:08:20.166  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ignite"
+2023-10-03 10:08:20.506  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ignite
+2023-10-03 10:08:20.512  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:ignite, client=127.0.0.1
+2023-10-03 10:08:32.127  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : DELETE /v3/sessions/u8xgff4tjuz8ywlt/players/1150651592589189130, client=127.0.0.1
+2023-10-03 10:08:35.460  INFO 16344 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:55574 -- CloseStatus[code=1006, reason=]
+2023-10-03 10:08:35.460  INFO 16344 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 10:34:51.299  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:56458
+2023-10-03 10:34:51.301  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 10:34:51.303  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 10:34:51.304  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 10:35:50.439  INFO 16344 --- [XNIO-1 I/O-14] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:56458 -- CloseStatus[code=1006, reason=]
+2023-10-03 10:35:50.439  INFO 16344 --- [XNIO-1 I/O-14] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 10:40:17.499  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:56620
+2023-10-03 10:40:17.505  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 10:40:17.507  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 10:40:17.508  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 10:40:24.384  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/9nd5733rv0x7bjml/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "8d308e834c3fd469ef9b1f14f2e50a3f", "token": "d37423ccdfed1ad3", "endpoint": "hongkong1262.discord.media:443"}}
+2023-10-03 10:40:51.749  INFO 16344 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:56620 -- CloseStatus[code=1006, reason=]
+2023-10-03 10:40:51.749  INFO 16344 --- [XNIO-1 I/O-7] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 10:42:41.135  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:56699
+2023-10-03 10:42:41.137  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 10:42:41.138  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 10:42:41.139  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 10:43:02.684  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/76szu33upca5mesk/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"voice": {"sessionId": "f3a01ac8d86d66918815808e669da385", "token": "a2802ab199a7da74", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 10:43:22.807  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : DELETE /v3/sessions/76szu33upca5mesk/players/1150651592589189130, client=0:0:0:0:0:0:0:1
+2023-10-03 10:43:26.239  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/76szu33upca5mesk/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"voice": {"sessionId": "f3a01ac8d86d66918815808e669da385", "token": "02a33afae6308f53", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 10:43:35.000  INFO 16344 --- [XNIO-1 I/O-14] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:56699 -- CloseStatus[code=1006, reason=]
+2023-10-03 10:43:35.000  INFO 16344 --- [XNIO-1 I/O-14] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 10:45:09.001  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:56783
+2023-10-03 10:45:09.003  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 10:45:09.005  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 10:45:09.006  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 10:45:30.614  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=Zasx9hjo4WY"
+2023-10-03 10:45:30.618  WARN 16344 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : YouTube auth tokens can't be retrieved because email and password is not set in YoutubeAudioSourceManager, age restricted videos will throw exceptions.
+2023-10-03 10:45:31.192  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is null).
+2023-10-03 10:45:31.254  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/xcxpubawk9jtq4iu/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "051b40e955ddfef4da682fc6273c1fdc", "token": "362ec97465f39b91", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 10:45:31.361  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtMTVI0UXY2LWFnNCjbnO6oBjIICgJWThICGgA6CiDNz7f2tMvjjWU%3D, next update will be after 600 seconds.
+2023-10-03 10:45:31.486  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Ignite (ft. Zedd) | Worlds 2016 - League of Legends
+2023-10-03 10:45:31.489  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=https://www.youtube.com/watch?v=Zasx9hjo4WY, client=0:0:0:0:0:0:0:1
+2023-10-03 10:45:31.511  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/xcxpubawk9jtq4iu/players/1150651592589189130?noReplace=False, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAANy0AALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 10:45:31.513  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAANy0AALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=127.0.0.1
+2023-10-03 10:45:31.869  INFO 16344 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$789/0x00000008017775f8@1b85fd0e
+2023-10-03 10:45:31.881  INFO 16344 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: successfully loaded.
+2023-10-03 10:45:31.881  INFO 16344 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2023-10-03 10:45:31.903  INFO 16344 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2023-10-03 10:45:45.710  INFO 16344 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:56783 -- CloseStatus[code=1006, reason=]
+2023-10-03 10:45:45.711  INFO 16344 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2023-10-03 10:46:56.009  INFO 16344 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:56862
+2023-10-03 10:46:56.011  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 10:46:56.012  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 10:46:56.014  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 10:46:57.621  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/fxhpw40dn0khahs2/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "03ad75f090712bd5f40db6cfbab101fd", "token": "362ec97465f39b91", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 10:47:10.158  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : DELETE /v3/sessions/fxhpw40dn0khahs2/players/1150651592589189130, client=127.0.0.1
+2023-10-03 10:47:13.442  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/fxhpw40dn0khahs2/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "03ad75f090712bd5f40db6cfbab101fd", "token": "ca0f95b042b1b87d", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 10:47:29.754  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : DELETE /v3/sessions/fxhpw40dn0khahs2/players/1150651592589189130, client=0:0:0:0:0:0:0:1
+2023-10-03 10:48:44.837  INFO 16344 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:56862 -- CloseStatus[code=1006, reason=]
+2023-10-03 10:48:44.837  INFO 16344 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 10:48:51.247  INFO 16344 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:56926
+2023-10-03 10:48:51.248  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 10:48:51.249  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 10:48:51.251  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 10:49:02.038  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/2heekvw210y8aknf/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "a8b573bbf0e563d0436102cc078d25ea", "token": "2053c68a2a865288", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 10:49:20.538  INFO 16344 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:56926 -- CloseStatus[code=1006, reason=]
+2023-10-03 10:49:20.538  INFO 16344 --- [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 10:50:24.044  INFO 16344 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:56972
+2023-10-03 10:50:24.047  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 10:50:24.049  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 10:50:24.051  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 10:51:00.287  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/homjs9i2vxppvtrb/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"voice": {"sessionId": "7efb25f569cb279963e81a7aaf06e282", "token": "03e8e3872f9c7bf4", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 10:51:06.408  INFO 16344 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:56972 -- CloseStatus[code=1006, reason=]
+2023-10-03 10:51:06.410  INFO 16344 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 10:53:07.259  INFO 16344 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:57056
+2023-10-03 10:53:07.260  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 10:53:07.262  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 10:53:07.264  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 10:53:09.551  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/0wl54igwmqstgt1d/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "8b78d67c49b993e0de1c800398fa4d5b", "token": "8b184f1bba9af583", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 10:53:15.273  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : DELETE /v3/sessions/0wl54igwmqstgt1d/players/1150651592589189130, client=127.0.0.1
+2023-10-03 10:53:18.427  INFO 16344 --- [XNIO-1 I/O-14] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:57056 -- CloseStatus[code=1006, reason=]
+2023-10-03 10:53:18.427  INFO 16344 --- [XNIO-1 I/O-14] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 10:54:45.139  INFO 16344 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:57106
+2023-10-03 10:54:45.144  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 10:54:45.145  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 10:54:45.147  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 10:55:04.615  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/hxl4k28py93mc4tq/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"voice": {"sessionId": "89f06b74fedfbe6bb383a1902d5620c4", "token": "1048e7b85cee431b", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 10:55:25.621  INFO 16344 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:57106 -- CloseStatus[code=1006, reason=]
+2023-10-03 10:55:25.621  INFO 16344 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 11:35:51.342  INFO 16344 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:58137
+2023-10-03 11:35:51.344  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 11:35:51.345  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 11:35:51.346  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 11:36:01.306  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/mlevou9ul2wzxm7u/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "e87c87fb48776639252d6b276ea87102", "token": "aad70f24a12027bf", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 11:36:19.373  INFO 16344 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:58137 -- CloseStatus[code=1006, reason=]
+2023-10-03 11:36:19.373  INFO 16344 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 12:07:09.306  INFO 16344 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:58860
+2023-10-03 12:07:09.308  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 12:07:09.310  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 12:07:09.311  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 12:07:17.765  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/8l4kcykcc84lsxrg/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "7384a224b02a6f561c5be7156147b0d0", "token": "ac81f06f6bf4ca23", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 12:07:22.147  INFO 16344 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=Zasx9hjo4WY"
+2023-10-03 12:07:22.149  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is CgtMTVI0UXY2LWFnNCjbnO6oBjIICgJWThICGgA6CiDNz7f2tMvjjWU%3D).
+2023-10-03 12:07:22.310  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtNWXpQSHpBU1dLayiKw-6oBjIICgJWThICGgA6CiC5_s7ForHojWU%3D, next update will be after 600 seconds.
+2023-10-03 12:07:22.405  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Ignite (ft. Zedd) | Worlds 2016 - League of Legends
+2023-10-03 12:07:22.428  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=https://www.youtube.com/watch?v=Zasx9hjo4WY, client=127.0.0.1
+2023-10-03 12:07:22.437  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAANy0AALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 12:07:22.442  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/8l4kcykcc84lsxrg/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAANy0AALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 12:07:33.799  INFO 16344 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:58860 -- CloseStatus[code=1006, reason=]
+2023-10-03 12:07:33.799  INFO 16344 --- [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2023-10-03 12:09:25.646  INFO 16344 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:58945
+2023-10-03 12:09:25.648  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 12:09:25.649  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 12:09:25.650  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 12:09:29.722  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/6dazzo7dkdrx0yyp/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "2dbdb09e18b6d95f8b4aba27846fbdf6", "token": "4d4d51bf5177ce07", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 12:09:32.187  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=Zasx9hjo4WY"
+2023-10-03 12:09:32.282  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Ignite (ft. Zedd) | Worlds 2016 - League of Legends
+2023-10-03 12:09:32.295  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=https://www.youtube.com/watch?v=Zasx9hjo4WY, client=127.0.0.1
+2023-10-03 12:09:32.302  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAANy0AALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 12:09:32.306  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/6dazzo7dkdrx0yyp/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAANy0AALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 12:09:57.921  INFO 16344 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:58945 -- CloseStatus[code=1006, reason=]
+2023-10-03 12:09:57.921  INFO 16344 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2023-10-03 12:11:42.030  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:59038
+2023-10-03 12:11:42.032  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 12:11:42.033  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 12:11:42.035  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 12:11:47.819  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/rm88john9i65z3fy/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "2493d9b4039b3c97db20a23aac0508d3", "token": "e10683b097a97bb1", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 12:11:51.352  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=Zasx9hjo4WY"
+2023-10-03 12:11:51.450  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Ignite (ft. Zedd) | Worlds 2016 - League of Legends
+2023-10-03 12:11:51.452  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=https://www.youtube.com/watch?v=Zasx9hjo4WY, client=127.0.0.1
+2023-10-03 12:11:51.455  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/rm88john9i65z3fy/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAANy0AALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 12:11:51.458  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAANy0AALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 12:11:57.353  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/rm88john9i65z3fy/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"paused": true}
+2023-10-03 12:12:52.171  INFO 16344 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:59038 -- CloseStatus[code=1006, reason=]
+2023-10-03 12:12:52.171  INFO 16344 --- [XNIO-1 I/O-10] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 12:13:00.938  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:59097
+2023-10-03 12:13:00.940  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 12:13:00.941  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 12:13:00.943  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 12:13:30.569  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/km1zfxifm15rpcyh/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"voice": {"sessionId": "90a7559aeac2a58c76ebd6bdf6f579b7", "token": "e10683b097a97bb1", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 12:13:33.329  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=Zasx9hjo4WY"
+2023-10-03 12:13:33.432  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Ignite (ft. Zedd) | Worlds 2016 - League of Legends
+2023-10-03 12:13:33.434  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=https://www.youtube.com/watch?v=Zasx9hjo4WY, client=0:0:0:0:0:0:0:1
+2023-10-03 12:13:33.438  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/km1zfxifm15rpcyh/players/1150651592589189130?noReplace=False, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAANy0AALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 12:13:33.440  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAANy0AALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=127.0.0.1
+2023-10-03 12:13:38.570  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/km1zfxifm15rpcyh/players/1150651592589189130, client=127.0.0.1, payload={"paused": true}
+2023-10-03 12:13:41.461  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/km1zfxifm15rpcyh/players/1150651592589189130, client=127.0.0.1, payload={"paused": false}
+2023-10-03 12:14:49.679  INFO 16344 --- [XNIO-1 I/O-9] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:59097 -- CloseStatus[code=1006, reason=]
+2023-10-03 12:14:49.679  INFO 16344 --- [XNIO-1 I/O-9] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2023-10-03 12:19:43.245  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:59296
+2023-10-03 12:19:43.247  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 12:19:43.248  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 12:19:43.250  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 12:19:48.165  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/izetipo8y2hzltuv/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "ff3308ecec1806e3cec82aa79517347e", "token": "cd4a34373bb97b04", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 12:19:54.537  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ignite zedd"
+2023-10-03 12:19:55.267  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ignite zedd
+2023-10-03 12:19:55.271  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:ignite+zedd, client=127.0.0.1
+2023-10-03 12:19:55.274  INFO 16344 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is CgtNWXpQSHpBU1dLayiKw-6oBjIICgJWThICGgA6CiC5_s7ForHojWU%3D).
+2023-10-03 12:19:55.275  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/izetipo8y2hzltuv/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 12:19:55.278  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 12:19:55.387  INFO 16344 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtfNGVERTk3enl5OCj7yO6oBjIICgJWThICGgA6CiDwhu_ksY_pjWU%3D, next update will be after 600 seconds.
+2023-10-03 12:20:05.475  INFO 16344 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:59296 -- CloseStatus[code=1006, reason=]
+2023-10-03 12:20:05.475  INFO 16344 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2023-10-03 12:22:24.717  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:59385
+2023-10-03 12:22:24.719  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 12:22:24.720  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 12:22:24.722  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 12:22:27.725  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/566ive6ae987qw0q/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "7e95acaaa5b638c773e9bbd73a0ae652", "token": "48440406cc0db708", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 12:22:32.377  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ignite zedd"
+2023-10-03 12:22:32.705  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ignite zedd
+2023-10-03 12:22:32.708  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:ignite+zedd, client=127.0.0.1
+2023-10-03 12:22:41.759  INFO 16344 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:59385 -- CloseStatus[code=1006, reason=]
+2023-10-03 12:22:41.759  INFO 16344 --- [XNIO-1 I/O-7] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 12:22:54.241  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:59452
+2023-10-03 12:22:54.242  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 12:22:54.243  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 12:22:54.245  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 12:22:56.211  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/ii4xucjdm02smsp5/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "8860673bcd77552adb7b627415a22ea9", "token": "48440406cc0db708", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 12:23:00.160  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ignite zedd"
+2023-10-03 12:23:00.528  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ignite zedd
+2023-10-03 12:23:00.530  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:ignite+zedd, client=127.0.0.1
+2023-10-03 12:23:00.534  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/ii4xucjdm02smsp5/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 12:23:00.537  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 12:23:08.087  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:hero"
+2023-10-03 12:23:08.578  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: hero
+2023-10-03 12:23:08.583  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:hero, client=0:0:0:0:0:0:0:1
+2023-10-03 12:23:11.917  INFO 16344 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:59452 -- CloseStatus[code=1006, reason=]
+2023-10-03 12:23:11.918  INFO 16344 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2023-10-03 12:25:00.130  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:59583
+2023-10-03 12:25:00.133  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 12:25:00.134  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 12:25:00.135  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 12:25:04.753  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/28mguzhm3a3gg6aj/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "2ea096812bb08e30d76c8511d97dfc77", "token": "30945be7c6cc2ca9", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 12:25:09.908  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ignite zedd"
+2023-10-03 12:25:10.285  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ignite zedd
+2023-10-03 12:25:10.287  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:ignite+zedd, client=127.0.0.1
+2023-10-03 12:25:10.291  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/28mguzhm3a3gg6aj/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 12:25:10.295  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 12:25:19.127  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:hero"
+2023-10-03 12:25:19.511  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: hero
+2023-10-03 12:25:19.512  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:hero, client=0:0:0:0:0:0:0:1
+2023-10-03 12:25:34.210  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : DELETE /v3/sessions/28mguzhm3a3gg6aj/players/1150651592589189130, client=0:0:0:0:0:0:0:1
+2023-10-03 12:25:37.579  INFO 16344 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:59583 -- CloseStatus[code=1006, reason=]
+2023-10-03 12:25:37.580  INFO 16344 --- [XNIO-1 I/O-10] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 12:28:38.991  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:59711
+2023-10-03 12:28:38.993  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 12:28:38.994  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 12:28:38.996  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 12:28:40.831  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/36zr6r3x2wkm13gw/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "ea4a5980fdcd58582ea3e90a94f8a746", "token": "9a1959a8bf2e8e15", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 12:28:44.114  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ignite"
+2023-10-03 12:28:44.524  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ignite
+2023-10-03 12:28:44.548  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:ignite, client=127.0.0.1
+2023-10-03 12:28:44.557  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAmgIAO0stMzkxICYgQWxhbiBXYWxrZXIgLSBJZ25pdGUgKGZlYXQuIEp1bGllIEJlcmdhbiAmIFNldW5ncmkpAAVLLTM5MQAAAAAAA4JwAAtBei1tR1ItQ2VoWQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUF6LW1HUi1DZWhZAAd5b3V0dWJlAAAAAAAAAAA%3D, client=0:0:0:0:0:0:0:1
+2023-10-03 12:28:44.560  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/36zr6r3x2wkm13gw/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAmgIAO0stMzkxICYgQWxhbiBXYWxrZXIgLSBJZ25pdGUgKGZlYXQuIEp1bGllIEJlcmdhbiAmIFNldW5ncmkpAAVLLTM5MQAAAAAAA4JwAAtBei1tR1ItQ2VoWQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUF6LW1HUi1DZWhZAAd5b3V0dWJlAAAAAAAAAAA=", "position": 0, "volume": 50}
+2023-10-03 12:29:00.623  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:hero"
+2023-10-03 12:29:01.017  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: hero
+2023-10-03 12:29:01.020  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:hero, client=0:0:0:0:0:0:0:1
+2023-10-03 12:29:06.313  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ignite zedd"
+2023-10-03 12:29:06.641  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ignite zedd
+2023-10-03 12:29:06.643  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:ignite+zedd, client=0:0:0:0:0:0:0:1
+2023-10-03 12:29:20.621  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/36zr6r3x2wkm13gw/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": null}
+2023-10-03 12:29:20.624  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAmgIAO0stMzkxICYgQWxhbiBXYWxrZXIgLSBJZ25pdGUgKGZlYXQuIEp1bGllIEJlcmdhbiAmIFNldW5ncmkpAAVLLTM5MQAAAAAAA4JwAAtBei1tR1ItQ2VoWQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUF6LW1HUi1DZWhZAAd5b3V0dWJlAAAAAAAAjQQ%3D, client=0:0:0:0:0:0:0:1
+2023-10-03 12:29:20.625  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=tu4HfcmMn1E&list=RDtu4HfcmMn1E"
+2023-10-03 12:29:21.340  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Mix - Alan Walker & Sasha Alex Sloan - Hero (Official Music Video)
+2023-10-03 12:29:21.343  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=https://www.youtube.com/watch?v%3Dtu4HfcmMn1E%26list%3DRDtu4HfcmMn1E, client=0:0:0:0:0:0:0:1
+2023-10-03 12:29:21.347  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/36zr6r3x2wkm13gw/players/1150651592589189130?noReplace=False, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": "QAAAoQIAPEFsYW4gV2Fsa2VyICYgU2FzaGEgQWxleCBTbG9hbiAtIEhlcm8gKE9mZmljaWFsIE11c2ljIFZpZGVvKQALQWxhbiBXYWxrZXIAAAAAAAKf4AALdHU0SGZjbU1uMUUAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj10dTRIZmNtTW4xRQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 12:29:21.350  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAoQIAPEFsYW4gV2Fsa2VyICYgU2FzaGEgQWxleCBTbG9hbiAtIEhlcm8gKE9mZmljaWFsIE11c2ljIFZpZGVvKQALQWxhbiBXYWxrZXIAAAAAAAKf4AALdHU0SGZjbU1uMUUAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj10dTRIZmNtTW4xRQAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 12:29:29.375  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/36zr6r3x2wkm13gw/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": null}
+2023-10-03 12:29:29.376  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAoQIAPEFsYW4gV2Fsa2VyICYgU2FzaGEgQWxleCBTbG9hbiAtIEhlcm8gKE9mZmljaWFsIE11c2ljIFZpZGVvKQALQWxhbiBXYWxrZXIAAAAAAAKf4AALdHU0SGZjbU1uMUUAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj10dTRIZmNtTW4xRQAHeW91dHViZQAAAAAAABzo, client=0:0:0:0:0:0:0:1
+2023-10-03 12:29:29.378  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=Zasx9hjo4WY&list=RDZasx9hjo4WY"
+2023-10-03 12:29:30.038  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Mix - Ignite (ft. Zedd) | Worlds 2016 - League of Legends
+2023-10-03 12:29:30.040  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=https://www.youtube.com/watch?v%3DZasx9hjo4WY%26list%3DRDZasx9hjo4WY, client=0:0:0:0:0:0:0:1
+2023-10-03 12:29:30.044  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/36zr6r3x2wkm13gw/players/1150651592589189130?noReplace=False, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 12:29:30.044  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 12:29:57.122  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/36zr6r3x2wkm13gw/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": null}
+2023-10-03 12:29:57.126  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAGnI, client=127.0.0.1
+2023-10-03 12:29:57.127  INFO 16344 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is CgtfNGVERTk3enl5OCj7yO6oBjIICgJWThICGgA6CiDwhu_ksY_pjWU%3D).
+2023-10-03 12:29:57.129  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/36zr6r3x2wkm13gw/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAqQIAREFsb2sgJiBBbGFuIFdhbGtlciAtIEhlYWRsaWdodHMgKGZlYXQuIEtJRERPKSBbT2ZmaWNpYWwgTHlyaWMgVmlkZW9dAAtBbGFuIFdhbGtlcgAAAAAAAnjQAAtreUx1ektiZ1hBcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWt5THV6S2JnWEFzAAd5b3V0dWJlAAAAAAAAAAA=", "position": 0, "volume": 50}
+2023-10-03 12:29:57.130  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAqQIAREFsb2sgJiBBbGFuIFdhbGtlciAtIEhlYWRsaWdodHMgKGZlYXQuIEtJRERPKSBbT2ZmaWNpYWwgTHlyaWMgVmlkZW9dAAtBbGFuIFdhbGtlcgAAAAAAAnjQAAtreUx1ektiZ1hBcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWt5THV6S2JnWEFzAAd5b3V0dWJlAAAAAAAAAAA%3D, client=0:0:0:0:0:0:0:1
+2023-10-03 12:29:57.175  INFO 16344 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is Cgs4WFZoNTFuaDRQQSjVze6oBjIICgJWThICGgA6CiCiuYfp1NrpjWU%3D, next update will be after 600 seconds.
+2023-10-03 12:30:06.651  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/36zr6r3x2wkm13gw/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": null}
+2023-10-03 12:30:06.653  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAqQIAREFsb2sgJiBBbGFuIFdhbGtlciAtIEhlYWRsaWdodHMgKGZlYXQuIEtJRERPKSBbT2ZmaWNpYWwgTHlyaWMgVmlkZW9dAAtBbGFuIFdhbGtlcgAAAAAAAnjQAAtreUx1ektiZ1hBcwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWt5THV6S2JnWEFzAAd5b3V0dWJlAAAAAAAAJHw%3D, client=127.0.0.1
+2023-10-03 12:30:06.656  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/36zr6r3x2wkm13gw/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAhgIAIkFubmUtTWFyaWUgLSAyMDAyIFtPZmZpY2lhbCBWaWRlb10ACkFubmUtTWFyaWUAAAAAAAL5uAALSWwtYW4zSzlwamcAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1JbC1hbjNLOXBqZwAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 12:30:06.656  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAhgIAIkFubmUtTWFyaWUgLSAyMDAyIFtPZmZpY2lhbCBWaWRlb10ACkFubmUtTWFyaWUAAAAAAAL5uAALSWwtYW4zSzlwamcAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1JbC1hbjNLOXBqZwAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 12:30:19.392  INFO 16344 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:59711 -- CloseStatus[code=1006, reason=]
+2023-10-03 12:30:19.393  INFO 16344 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2023-10-03 12:37:47.569  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:59990
+2023-10-03 12:37:47.571  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 12:37:47.572  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 12:37:47.573  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 12:37:52.712  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/iuzntaekvex19s9m/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "95f5b62d7c293a53f8b75ca29da862e3", "token": "415a9ec5965eadc5", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 12:37:57.571  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ignite zedd"
+2023-10-03 12:37:58.067  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ignite zedd
+2023-10-03 12:37:58.069  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:ignite+zedd, client=127.0.0.1
+2023-10-03 12:37:58.073  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/iuzntaekvex19s9m/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 12:37:58.076  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 12:38:41.475  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/iuzntaekvex19s9m/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": null}
+2023-10-03 12:38:41.477  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAKhc, client=127.0.0.1
+2023-10-03 12:39:08.539  INFO 16344 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:59990 -- CloseStatus[code=1006, reason=]
+2023-10-03 12:39:08.539  INFO 16344 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 12:40:16.802  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:60088
+2023-10-03 12:40:16.804  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 12:40:16.805  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 12:40:16.806  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 12:40:19.884  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/x96jx5dw7nte1pbg/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "87f7d022b95e55d2f143af195cdd93dd", "token": "415a9ec5965eadc5", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 12:40:24.091  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ignite zedd"
+2023-10-03 12:40:24.447  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ignite zedd
+2023-10-03 12:40:24.449  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:ignite+zedd, client=127.0.0.1
+2023-10-03 12:40:24.453  INFO 16344 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is Cgs4WFZoNTFuaDRQQSjVze6oBjIICgJWThICGgA6CiCiuYfp1NrpjWU%3D).
+2023-10-03 12:40:24.453  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/x96jx5dw7nte1pbg/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 12:40:24.456  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 12:40:24.500  INFO 16344 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is Cgt1YnV1UkdkTi0tWSjI0u6oBjIICgJWThICGgA6CiDf9JjfhanqjWU%3D, next update will be after 600 seconds.
+2023-10-03 12:40:32.926  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:fade alan walker"
+2023-10-03 12:40:33.394  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: fade alan walker
+2023-10-03 12:40:33.396  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:fade+alan+walker, client=0:0:0:0:0:0:0:1
+2023-10-03 12:40:39.213  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/x96jx5dw7nte1pbg/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": null}
+2023-10-03 12:40:39.214  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAADfI, client=127.0.0.1
+2023-10-03 12:40:39.215  INFO 16344 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=vg95MYlTb3c&list=RDvg95MYlTb3c"
+2023-10-03 12:40:39.903  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Mix - Alan Walker - Fade
+2023-10-03 12:40:39.905  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=https://www.youtube.com/watch?v%3Dvg95MYlTb3c%26list%3DRDvg95MYlTb3c, client=127.0.0.1
+2023-10-03 12:40:39.909  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/x96jx5dw7nte1pbg/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAdwIAEkFsYW4gV2Fsa2VyIC0gRmFkZQALQWxhbiBXYWxrZXIAAAAAAAQHQAALdmc5NU1ZbFRiM2MAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj12Zzk1TVlsVGIzYwAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 12:40:39.911  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAdwIAEkFsYW4gV2Fsa2VyIC0gRmFkZQALQWxhbiBXYWxrZXIAAAAAAAQHQAALdmc5NU1ZbFRiM2MAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj12Zzk1TVlsVGIzYwAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 12:40:43.206  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/x96jx5dw7nte1pbg/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": null}
+2023-10-03 12:40:43.207  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAdwIAEkFsYW4gV2Fsa2VyIC0gRmFkZQALQWxhbiBXYWxrZXIAAAAAAAQHQAALdmc5NU1ZbFRiM2MAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj12Zzk1TVlsVGIzYwAHeW91dHViZQAAAAAAAAzQ, client=127.0.0.1
+2023-10-03 12:40:43.210  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/x96jx5dw7nte1pbg/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAjgIALERKIFNuYWtlIC0gTGV0IE1lIExvdmUgWW91IGZ0LiBKdXN0aW4gQmllYmVyAAhESiBTbmFrZQAAAAAAAySwAAtldUNxQXE2QlJhNAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWV1Q3FBcTZCUmE0AAd5b3V0dWJlAAAAAAAAAAA=", "position": 0, "volume": 50}
+2023-10-03 12:40:43.211  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAjgIALERKIFNuYWtlIC0gTGV0IE1lIExvdmUgWW91IGZ0LiBKdXN0aW4gQmllYmVyAAhESiBTbmFrZQAAAAAAAySwAAtldUNxQXE2QlJhNAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWV1Q3FBcTZCUmE0AAd5b3V0dWJlAAAAAAAAAAA%3D, client=0:0:0:0:0:0:0:1
+2023-10-03 12:40:57.283  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : DELETE /v3/sessions/x96jx5dw7nte1pbg/players/1150651592589189130, client=0:0:0:0:0:0:0:1
+2023-10-03 12:41:00.405  INFO 16344 --- [XNIO-1 I/O-15] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:60088 -- CloseStatus[code=1006, reason=]
+2023-10-03 12:41:00.406  INFO 16344 --- [XNIO-1 I/O-15] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 12:49:11.953  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:60385
+2023-10-03 12:49:11.955  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 12:49:11.956  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 12:49:11.957  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 12:49:16.542  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/1nd1y9ezuzalsibj/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "3e6606298e3e56c094bb81eb2d97f2c7", "token": "232c1fdfb9d359a2", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 12:49:19.514  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ignite zed"
+2023-10-03 12:49:19.960  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ignite zed
+2023-10-03 12:49:19.962  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:ignite+zed, client=127.0.0.1
+2023-10-03 12:49:19.967  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/1nd1y9ezuzalsibj/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 12:49:19.969  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 12:49:33.792  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:fade alan walker"
+2023-10-03 12:49:34.291  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: fade alan walker
+2023-10-03 12:49:34.302  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:fade+alan+walker, client=0:0:0:0:0:0:0:1
+2023-10-03 12:49:37.164  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/1nd1y9ezuzalsibj/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": null}
+2023-10-03 12:49:37.168  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAEL0, client=0:0:0:0:0:0:0:1
+2023-10-03 12:49:37.170  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=vg95MYlTb3c&list=RDvg95MYlTb3c"
+2023-10-03 12:49:37.866  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Mix - Alan Walker - Fade
+2023-10-03 12:49:37.868  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=https://www.youtube.com/watch?v%3Dvg95MYlTb3c%26list%3DRDvg95MYlTb3c, client=0:0:0:0:0:0:0:1
+2023-10-03 12:49:37.871  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/1nd1y9ezuzalsibj/players/1150651592589189130?noReplace=False, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": "QAAAdwIAEkFsYW4gV2Fsa2VyIC0gRmFkZQALQWxhbiBXYWxrZXIAAAAAAAQHQAALdmc5NU1ZbFRiM2MAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj12Zzk1TVlsVGIzYwAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 12:49:38.071  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : DELETE /v3/sessions/1nd1y9ezuzalsibj/players/1150651592589189130, client=0:0:0:0:0:0:0:1
+2023-10-03 12:50:14.772  INFO 16344 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:60385 -- CloseStatus[code=1006, reason=]
+2023-10-03 12:50:14.772  INFO 16344 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 12:50:21.672  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:60431
+2023-10-03 12:50:21.675  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 12:50:21.676  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 12:50:21.678  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 12:50:26.751  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/ncf899cuese0r8uq/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "5659ac77fda945502f6a98b8c0e76ab2", "token": "47ac92c55c140814", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 12:50:30.188  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ignite zedd"
+2023-10-03 12:50:30.581  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ignite zedd
+2023-10-03 12:50:30.583  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:ignite+zedd, client=127.0.0.1
+2023-10-03 12:50:30.585  INFO 16344 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is Cgt1YnV1UkdkTi0tWSjI0u6oBjIICgJWThICGgA6CiDf9JjfhanqjWU%3D).
+2023-10-03 12:50:30.586  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/ncf899cuese0r8uq/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 12:50:30.589  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 12:50:30.636  INFO 16344 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtNR25ndm1RWWxhOCim1-6oBjIICgJWThICGgA6CiCYhfXe5_TqjWU%3D, next update will be after 600 seconds.
+2023-10-03 12:50:35.397  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:fade alan walker"
+2023-10-03 12:50:35.836  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: fade alan walker
+2023-10-03 12:50:35.839  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:fade+alan+walker, client=0:0:0:0:0:0:0:1
+2023-10-03 12:50:37.726  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/ncf899cuese0r8uq/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": null}
+2023-10-03 12:50:37.728  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAABrg, client=127.0.0.1
+2023-10-03 12:50:37.728  INFO 16344 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=vg95MYlTb3c&list=RDvg95MYlTb3c"
+2023-10-03 12:50:38.232  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Mix - Alan Walker - Fade
+2023-10-03 12:50:38.234  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=https://www.youtube.com/watch?v%3Dvg95MYlTb3c%26list%3DRDvg95MYlTb3c, client=127.0.0.1
+2023-10-03 12:50:38.238  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/ncf899cuese0r8uq/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAdwIAEkFsYW4gV2Fsa2VyIC0gRmFkZQALQWxhbiBXYWxrZXIAAAAAAAQHQAALdmc5NU1ZbFRiM2MAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj12Zzk1TVlsVGIzYwAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 12:50:38.239  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAdwIAEkFsYW4gV2Fsa2VyIC0gRmFkZQALQWxhbiBXYWxrZXIAAAAAAAQHQAALdmc5NU1ZbFRiM2MAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj12Zzk1TVlsVGIzYwAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 12:50:42.111  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/ncf899cuese0r8uq/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": null}
+2023-10-03 12:50:42.336  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : DELETE /v3/sessions/ncf899cuese0r8uq/players/1150651592589189130, client=0:0:0:0:0:0:0:1
+2023-10-03 12:50:48.838  INFO 16344 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:60431 -- CloseStatus[code=1006, reason=]
+2023-10-03 12:50:48.839  INFO 16344 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 12:52:37.032  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:60509
+2023-10-03 12:52:37.034  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 12:52:37.035  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 12:52:37.036  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 12:52:38.743  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/449bt00ckroome0h/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "31c67985bf09c865f1cb4f57c183e7c4", "token": "3e877b623e9830ca", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 12:52:42.602  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ignite zedd"
+2023-10-03 12:52:42.949  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ignite zedd
+2023-10-03 12:52:42.950  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:ignite+zedd, client=127.0.0.1
+2023-10-03 12:52:42.955  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/449bt00ckroome0h/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 12:52:42.958  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 12:52:54.635  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:fade alan walker"
+2023-10-03 12:52:55.143  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: fade alan walker
+2023-10-03 12:52:55.144  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:fade+alan+walker, client=0:0:0:0:0:0:0:1
+2023-10-03 12:53:03.872  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:waiting for llove"
+2023-10-03 12:53:04.244  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: waiting for llove
+2023-10-03 12:53:04.246  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:waiting+for+llove, client=0:0:0:0:0:0:0:1
+2023-10-03 12:53:27.047  INFO 16344 --- [XNIO-1 I/O-16] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:60509 -- CloseStatus[code=1006, reason=]
+2023-10-03 12:53:27.047  INFO 16344 --- [XNIO-1 I/O-16] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2023-10-03 12:56:38.137  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:60646
+2023-10-03 12:56:38.138  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 12:56:38.139  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 12:56:38.141  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 12:56:44.860  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/vlz292udtxjon1a8/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "93c684a1d0a98f589585b9c7be9d97ed", "token": "18108436a2ebd4ac", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 12:56:49.060  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:zedd ignite"
+2023-10-03 12:56:49.433  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: zedd ignite
+2023-10-03 12:56:49.435  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:zedd+ignite, client=127.0.0.1
+2023-10-03 12:56:49.437  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/vlz292udtxjon1a8/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 12:56:49.441  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 12:56:55.921  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:waiting for love"
+2023-10-03 12:56:56.359  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: waiting for love
+2023-10-03 12:56:56.361  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:waiting+for+love, client=0:0:0:0:0:0:0:1
+2023-10-03 12:57:30.901  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:something just like this"
+2023-10-03 12:57:31.303  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: something just like this
+2023-10-03 12:57:31.305  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:something+just+like+this, client=0:0:0:0:0:0:0:1
+2023-10-03 12:57:59.226  INFO 16344 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:60646 -- CloseStatus[code=1006, reason=]
+2023-10-03 12:57:59.226  INFO 16344 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2023-10-03 12:58:39.879  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:60717
+2023-10-03 12:58:39.881  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 12:58:39.882  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 12:58:39.884  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 12:58:57.638  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/8goe4ngfsm1gqzfj/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"voice": {"sessionId": "503fca9fe983b3f7de9c3c5ea0a9f673", "token": "18108436a2ebd4ac", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 12:59:01.152  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:zedd ignite"
+2023-10-03 12:59:01.489  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: zedd ignite
+2023-10-03 12:59:01.491  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:zedd+ignite, client=0:0:0:0:0:0:0:1
+2023-10-03 12:59:01.494  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/8goe4ngfsm1gqzfj/players/1150651592589189130?noReplace=False, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 12:59:01.497  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=127.0.0.1
+2023-10-03 12:59:06.417  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:hero cash cash"
+2023-10-03 12:59:06.864  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: hero cash cash
+2023-10-03 12:59:06.866  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:hero+cash+cash, client=127.0.0.1
+2023-10-03 12:59:15.396  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:waiting for love"
+2023-10-03 12:59:15.834  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: waiting for love
+2023-10-03 12:59:15.835  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:waiting+for+love, client=127.0.0.1
+2023-10-03 12:59:18.028  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:fade"
+2023-10-03 12:59:18.412  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: fade
+2023-10-03 12:59:18.414  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:fade, client=127.0.0.1
+2023-10-03 12:59:24.132  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:best of me"
+2023-10-03 12:59:24.610  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: best of me
+2023-10-03 12:59:24.611  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:best+of+me, client=127.0.0.1
+2023-10-03 12:59:37.482  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/8goe4ngfsm1gqzfj/players/1150651592589189130, client=127.0.0.1, payload={"encodedTrack": null}
+2023-10-03 12:59:37.485  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAIyg, client=0:0:0:0:0:0:0:1
+2023-10-03 12:59:37.487  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=wl_f-U49yX8&list=RDwl_f-U49yX8"
+2023-10-03 12:59:38.079  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Mix - Cash Cash - Hero ft. Christina Perri | "Now I don't need your wings to fly"
+2023-10-03 12:59:38.080  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=https://www.youtube.com/watch?v%3Dwl_f-U49yX8%26list%3DRDwl_f-U49yX8, client=0:0:0:0:0:0:0:1
+2023-10-03 12:59:38.084  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/8goe4ngfsm1gqzfj/players/1150651592589189130?noReplace=False, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": "QAAArgIAS0Nhc2ggQ2FzaCAtIEhlcm8gZnQuIENocmlzdGluYSBQZXJyaSB8ICJOb3cgSSBkb24ndCBuZWVkIHlvdXIgd2luZ3MgdG8gZmx5IgAJTGF0aW5IeXBlAAAAAAADCVgAC3dsX2YtVTQ5eVg4AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9d2xfZi1VNDl5WDgAB3lvdXR1YmUAAAAAAAAAAA==", "position": 0, "volume": 50}
+2023-10-03 12:59:38.084  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAArgIAS0Nhc2ggQ2FzaCAtIEhlcm8gZnQuIENocmlzdGluYSBQZXJyaSB8ICJOb3cgSSBkb24ndCBuZWVkIHlvdXIgd2luZ3MgdG8gZmx5IgAJTGF0aW5IeXBlAAAAAAADCVgAC3dsX2YtVTQ5eVg4AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9d2xfZi1VNDl5WDgAB3lvdXR1YmUAAAAAAAAAAA%3D%3D, client=127.0.0.1
+2023-10-03 12:59:48.537  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/8goe4ngfsm1gqzfj/players/1150651592589189130, client=127.0.0.1, payload={"encodedTrack": null}
+2023-10-03 12:59:48.538  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAArgIAS0Nhc2ggQ2FzaCAtIEhlcm8gZnQuIENocmlzdGluYSBQZXJyaSB8ICJOb3cgSSBkb24ndCBuZWVkIHlvdXIgd2luZ3MgdG8gZmx5IgAJTGF0aW5IeXBlAAAAAAADCVgAC3dsX2YtVTQ5eVg4AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9d2xfZi1VNDl5WDgAB3lvdXR1YmUAAAAAAAApBA%3D%3D, client=0:0:0:0:0:0:0:1
+2023-10-03 12:59:48.540  INFO 16344 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=cHHLHGNpCSA&list=RDcHHLHGNpCSA"
+2023-10-03 12:59:49.314  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Mix - Avicii - Waiting For Love
+2023-10-03 12:59:49.316  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=https://www.youtube.com/watch?v%3DcHHLHGNpCSA%26list%3DRDcHHLHGNpCSA, client=0:0:0:0:0:0:0:1
+2023-10-03 12:59:49.320  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/8goe4ngfsm1gqzfj/players/1150651592589189130?noReplace=False, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": "QAAAeQIAGUF2aWNpaSAtIFdhaXRpbmcgRm9yIExvdmUABkF2aWNpaQAAAAAAA4ZYAAtjSEhMSEdOcENTQQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWNISExIR05wQ1NBAAd5b3V0dWJlAAAAAAAAAAA=", "position": 0, "volume": 50}
+2023-10-03 12:59:49.321  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAeQIAGUF2aWNpaSAtIFdhaXRpbmcgRm9yIExvdmUABkF2aWNpaQAAAAAAA4ZYAAtjSEhMSEdOcENTQQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWNISExIR05wQ1NBAAd5b3V0dWJlAAAAAAAAAAA%3D, client=127.0.0.1
+2023-10-03 12:59:51.432  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/8goe4ngfsm1gqzfj/players/1150651592589189130, client=127.0.0.1, payload={"encodedTrack": null}
+2023-10-03 12:59:51.433  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAeQIAGUF2aWNpaSAtIFdhaXRpbmcgRm9yIExvdmUABkF2aWNpaQAAAAAAA4ZYAAtjSEhMSEdOcENTQQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWNISExIR05wQ1NBAAd5b3V0dWJlAAAAAAAACEg%3D, client=0:0:0:0:0:0:0:1
+2023-10-03 12:59:51.434  INFO 16344 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=60ItHLz5WEA&list=RD60ItHLz5WEA"
+2023-10-03 12:59:52.068  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Mix - Alan Walker - Faded
+2023-10-03 12:59:52.070  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=https://www.youtube.com/watch?v%3D60ItHLz5WEA%26list%3DRD60ItHLz5WEA, client=0:0:0:0:0:0:0:1
+2023-10-03 12:59:52.073  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/8goe4ngfsm1gqzfj/players/1150651592589189130?noReplace=False, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": "QAAAeAIAE0FsYW4gV2Fsa2VyIC0gRmFkZWQAC0FsYW4gV2Fsa2VyAAAAAAADQAgACzYwSXRITHo1V0VBAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9NjBJdEhMejVXRUEAB3lvdXR1YmUAAAAAAAAAAA==", "position": 0, "volume": 50}
+2023-10-03 12:59:52.074  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAeAIAE0FsYW4gV2Fsa2VyIC0gRmFkZWQAC0FsYW4gV2Fsa2VyAAAAAAADQAgACzYwSXRITHo1V0VBAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9NjBJdEhMejVXRUEAB3lvdXR1YmUAAAAAAAAAAA%3D%3D, client=127.0.0.1
+2023-10-03 12:59:56.600  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/8goe4ngfsm1gqzfj/players/1150651592589189130, client=127.0.0.1, payload={"encodedTrack": null}
+2023-10-03 12:59:56.606  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAeAIAE0FsYW4gV2Fsa2VyIC0gRmFkZWQAC0FsYW4gV2Fsa2VyAAAAAAADQAgACzYwSXRITHo1V0VBAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9NjBJdEhMejVXRUEAB3lvdXR1YmUAAAAAAAARvA%3D%3D, client=0:0:0:0:0:0:0:1
+2023-10-03 12:59:56.608  INFO 16344 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=0Wa_CR0H8g4&list=RD0Wa_CR0H8g4"
+2023-10-03 12:59:57.439  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Mix - NEFFEX - Best of Me [Official Video]
+2023-10-03 12:59:57.441  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=https://www.youtube.com/watch?v%3D0Wa_CR0H8g4%26list%3DRD0Wa_CR0H8g4, client=0:0:0:0:0:0:0:1
+2023-10-03 12:59:57.444  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/8goe4ngfsm1gqzfj/players/1150651592589189130?noReplace=False, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": "QAAAhAIAJE5FRkZFWCAtIEJlc3Qgb2YgTWUgW09mZmljaWFsIFZpZGVvXQAGTkVGRkVYAAAAAAADpZgACzBXYV9DUjBIOGc0AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MFdhX0NSMEg4ZzQAB3lvdXR1YmUAAAAAAAAAAA==", "position": 0, "volume": 50}
+2023-10-03 12:59:57.445  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAhAIAJE5FRkZFWCAtIEJlc3Qgb2YgTWUgW09mZmljaWFsIFZpZGVvXQAGTkVGRkVYAAAAAAADpZgACzBXYV9DUjBIOGc0AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MFdhX0NSMEg4ZzQAB3lvdXR1YmUAAAAAAAAAAA%3D%3D, client=127.0.0.1
+2023-10-03 13:00:07.747  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/8goe4ngfsm1gqzfj/players/1150651592589189130, client=127.0.0.1, payload={"encodedTrack": null}
+2023-10-03 13:00:07.989  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : DELETE /v3/sessions/8goe4ngfsm1gqzfj/players/1150651592589189130, client=127.0.0.1
+2023-10-03 13:00:17.009  INFO 16344 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:60717 -- CloseStatus[code=1006, reason=]
+2023-10-03 13:00:17.010  INFO 16344 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 13:19:29.818  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62262
+2023-10-03 13:19:29.820  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 13:19:29.821  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 13:19:29.822  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 13:19:59.141  INFO 16344 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62262 -- CloseStatus[code=1006, reason=]
+2023-10-03 13:19:59.141  INFO 16344 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 13:20:17.193  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62292
+2023-10-03 13:20:17.194  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 13:20:17.195  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 13:20:17.197  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 13:23:38.009  INFO 16344 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62292 -- CloseStatus[code=1006, reason=]
+2023-10-03 13:23:38.009  INFO 16344 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 13:23:51.392  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62383
+2023-10-03 13:23:51.394  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 13:23:51.395  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 13:23:51.397  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 13:24:17.907  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/jto31nj4ojbmxkjm/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"voice": {"sessionId": "5a5f3687ebc423246672e15717c175c2", "token": "a22095df5f50d84e", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 13:24:22.598  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ignite zedd"
+2023-10-03 13:24:23.057  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ignite zedd
+2023-10-03 13:24:23.073  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:ignite+zedd, client=0:0:0:0:0:0:0:1
+2023-10-03 13:24:23.088  INFO 16344 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is CgtNR25ndm1RWWxhOCim1-6oBjIICgJWThICGgA6CiCYhfXe5_TqjWU%3D).
+2023-10-03 13:24:23.092  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=127.0.0.1
+2023-10-03 13:24:23.098  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/jto31nj4ojbmxkjm/players/1150651592589189130?noReplace=False, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 13:24:23.199  INFO 16344 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtVb0JCVzdSS1E2WSiX5-6oBjIICgJWThICGgA6CiCGw5yW9PLsjWU%3D, next update will be after 600 seconds.
+2023-10-03 13:24:41.546  INFO 16344 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62383 -- CloseStatus[code=1006, reason=]
+2023-10-03 13:24:41.547  INFO 16344 --- [XNIO-1 I/O-7] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2023-10-03 13:26:33.810  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62480
+2023-10-03 13:26:33.812  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 13:26:33.813  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 13:26:33.815  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 13:26:35.929  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/cku7o3ztqjcsknvo/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "7b7afcf79a40739b9bb4fe2785d215b4", "token": "559a399785149eb0", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 13:26:40.055  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ignite zedd"
+2023-10-03 13:26:40.529  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ignite zedd
+2023-10-03 13:26:40.531  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:ignite+zedd, client=127.0.0.1
+2023-10-03 13:26:40.536  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/cku7o3ztqjcsknvo/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 13:26:40.539  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 13:26:45.088  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:hero cash cash"
+2023-10-03 13:26:45.612  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: hero cash cash
+2023-10-03 13:26:45.613  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:hero+cash+cash, client=0:0:0:0:0:0:0:1
+2023-10-03 13:26:49.646  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:abcdef"
+2023-10-03 13:26:49.960  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: abcdef
+2023-10-03 13:26:49.963  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:abcdef, client=0:0:0:0:0:0:0:1
+2023-10-03 13:27:11.298  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/cku7o3ztqjcsknvo/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"paused": true}
+2023-10-03 13:27:16.867  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/cku7o3ztqjcsknvo/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"paused": false}
+2023-10-03 13:27:22.759  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/cku7o3ztqjcsknvo/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": null}
+2023-10-03 13:27:22.761  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAJDE, client=0:0:0:0:0:0:0:1
+2023-10-03 13:27:22.764  INFO 16344 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=wl_f-U49yX8&list=RDwl_f-U49yX8"
+2023-10-03 13:27:23.528  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Mix - Cash Cash - Hero ft. Christina Perri | "Now I don't need your wings to fly"
+2023-10-03 13:27:23.530  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=https://www.youtube.com/watch?v%3Dwl_f-U49yX8%26list%3DRDwl_f-U49yX8, client=0:0:0:0:0:0:0:1
+2023-10-03 13:27:23.533  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/cku7o3ztqjcsknvo/players/1150651592589189130?noReplace=False, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": "QAAArgIAS0Nhc2ggQ2FzaCAtIEhlcm8gZnQuIENocmlzdGluYSBQZXJyaSB8ICJOb3cgSSBkb24ndCBuZWVkIHlvdXIgd2luZ3MgdG8gZmx5IgAJTGF0aW5IeXBlAAAAAAADCVgAC3dsX2YtVTQ5eVg4AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9d2xfZi1VNDl5WDgAB3lvdXR1YmUAAAAAAAAAAA==", "position": 0, "volume": 50}
+2023-10-03 13:27:23.534  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAArgIAS0Nhc2ggQ2FzaCAtIEhlcm8gZnQuIENocmlzdGluYSBQZXJyaSB8ICJOb3cgSSBkb24ndCBuZWVkIHlvdXIgd2luZ3MgdG8gZmx5IgAJTGF0aW5IeXBlAAAAAAADCVgAC3dsX2YtVTQ5eVg4AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9d2xfZi1VNDl5WDgAB3lvdXR1YmUAAAAAAAAAAA%3D%3D, client=0:0:0:0:0:0:0:1
+2023-10-03 13:27:35.705  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : DELETE /v3/sessions/cku7o3ztqjcsknvo/players/1150651592589189130, client=0:0:0:0:0:0:0:1
+2023-10-03 13:27:40.757  INFO 16344 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62480 -- CloseStatus[code=1006, reason=]
+2023-10-03 13:27:40.757  INFO 16344 --- [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 13:28:41.896  INFO 16344 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62555
+2023-10-03 13:28:41.897  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 13:28:41.898  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 13:28:41.900  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 13:28:47.148  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/l6sshl3bssqhkkzc/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "d32ae7a25eab6e13364306f55090dfbf", "token": "be181ed4d9df363e", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 13:28:50.874  INFO 16344 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ignite zedd"
+2023-10-03 13:28:51.196  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ignite zedd
+2023-10-03 13:28:51.198  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:ignite+zedd, client=127.0.0.1
+2023-10-03 13:28:51.201  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/l6sshl3bssqhkkzc/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 13:28:51.204  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 13:28:54.855  INFO 16344 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:abcdef"
+2023-10-03 13:28:55.189  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: abcdef
+2023-10-03 13:28:55.191  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:abcdef, client=0:0:0:0:0:0:0:1
+2023-10-03 13:28:59.030  INFO 16344 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:hero cash cash"
+2023-10-03 13:28:59.415  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: hero cash cash
+2023-10-03 13:28:59.417  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:hero+cash+cash, client=0:0:0:0:0:0:0:1
+2023-10-03 13:29:23.149  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/l6sshl3bssqhkkzc/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"paused": true}
+2023-10-03 13:30:03.165  INFO 16344 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62555 -- CloseStatus[code=1006, reason=]
+2023-10-03 13:30:03.165  INFO 16344 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 13:30:09.857  INFO 16344 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62607
+2023-10-03 13:30:09.858  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 13:30:09.859  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 13:30:09.861  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 13:30:15.038  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/rmifsdtod4vhkz4v/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "72590d12271698944fd1e200ca91a262", "token": "be181ed4d9df363e", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 13:30:18.621  INFO 16344 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ignite zedd"
+2023-10-03 13:30:18.935  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ignite zedd
+2023-10-03 13:30:18.936  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:ignite+zedd, client=127.0.0.1
+2023-10-03 13:30:18.941  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/rmifsdtod4vhkz4v/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 13:30:18.944  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=0:0:0:0:0:0:0:1
+2023-10-03 13:30:22.468  INFO 16344 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:abcdef"
+2023-10-03 13:30:22.774  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: abcdef
+2023-10-03 13:30:22.776  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:abcdef, client=0:0:0:0:0:0:0:1
+2023-10-03 13:30:26.970  INFO 16344 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:best of me"
+2023-10-03 13:30:27.451  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: best of me
+2023-10-03 13:30:27.453  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:best+of+me, client=0:0:0:0:0:0:0:1
+2023-10-03 13:30:41.487  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/rmifsdtod4vhkz4v/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": null}
+2023-10-03 13:30:41.490  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAFg0, client=0:0:0:0:0:0:0:1
+2023-10-03 13:30:41.491  INFO 16344 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=NaFd8ucHLuo&list=RDNaFd8ucHLuo"
+2023-10-03 13:30:42.218  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Mix - GAYLE - abcdefu (Official Music Video)
+2023-10-03 13:30:42.219  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=https://www.youtube.com/watch?v%3DNaFd8ucHLuo%26list%3DRDNaFd8ucHLuo, client=0:0:0:0:0:0:0:1
+2023-10-03 13:30:42.223  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/rmifsdtod4vhkz4v/players/1150651592589189130?noReplace=False, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": "QAAAhQIAJkdBWUxFIC0gYWJjZGVmdSAoT2ZmaWNpYWwgTXVzaWMgVmlkZW8pAAVHQVlMRQAAAAAAArdQAAtOYUZkOHVjSEx1bwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PU5hRmQ4dWNITHVvAAd5b3V0dWJlAAAAAAAAAAA=", "position": 0, "volume": 50}
+2023-10-03 13:30:42.224  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAhQIAJkdBWUxFIC0gYWJjZGVmdSAoT2ZmaWNpYWwgTXVzaWMgVmlkZW8pAAVHQVlMRQAAAAAAArdQAAtOYUZkOHVjSEx1bwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PU5hRmQ4dWNITHVvAAd5b3V0dWJlAAAAAAAAAAA%3D, client=0:0:0:0:0:0:0:1
+2023-10-03 13:31:22.244  INFO 16344 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62607 -- CloseStatus[code=1006, reason=]
+2023-10-03 13:31:22.245  INFO 16344 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2023-10-03 13:32:23.748  INFO 16344 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62693
+2023-10-03 13:32:23.750  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 13:32:23.751  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 13:32:23.752  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 13:32:29.646  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/1q0qfx5ss0efmpl7/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "e581fb8748de270c6fd687113e465b2b", "token": "be181ed4d9df363e", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 13:32:33.942  INFO 16344 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:hero cash cash"
+2023-10-03 13:32:34.361  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: hero cash cash
+2023-10-03 13:32:34.363  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:hero+cash+cash, client=127.0.0.1
+2023-10-03 13:32:34.366  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/1q0qfx5ss0efmpl7/players/1150651592589189130?noReplace=False, client=127.0.0.1, payload={"encodedTrack": "QAAArgIAS0Nhc2ggQ2FzaCAtIEhlcm8gZnQuIENocmlzdGluYSBQZXJyaSB8ICJOb3cgSSBkb24ndCBuZWVkIHlvdXIgd2luZ3MgdG8gZmx5IgAJTGF0aW5IeXBlAAAAAAADCVgAC3dsX2YtVTQ5eVg4AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9d2xfZi1VNDl5WDgAB3lvdXR1YmUAAAAAAAAAAA==", "position": 0, "volume": 50}
+2023-10-03 13:32:34.368  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAArgIAS0Nhc2ggQ2FzaCAtIEhlcm8gZnQuIENocmlzdGluYSBQZXJyaSB8ICJOb3cgSSBkb24ndCBuZWVkIHlvdXIgd2luZ3MgdG8gZmx5IgAJTGF0aW5IeXBlAAAAAAADCVgAC3dsX2YtVTQ5eVg4AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9d2xfZi1VNDl5WDgAB3lvdXR1YmUAAAAAAAAAAA%3D%3D, client=0:0:0:0:0:0:0:1
+2023-10-03 13:32:42.749  INFO 16344 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:abcdef"
+2023-10-03 13:32:43.065  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: abcdef
+2023-10-03 13:32:43.067  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:abcdef, client=0:0:0:0:0:0:0:1
+2023-10-03 13:33:03.257  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/1q0qfx5ss0efmpl7/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"paused": true}
+2023-10-03 13:33:10.812  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/1q0qfx5ss0efmpl7/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"paused": false}
+2023-10-03 13:33:23.502  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/1q0qfx5ss0efmpl7/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"paused": true}
+2023-10-03 13:33:36.073  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/1q0qfx5ss0efmpl7/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"paused": false}
+2023-10-03 13:33:49.366  INFO 16344 --- [XNIO-1 I/O-9] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62693 -- CloseStatus[code=1006, reason=]
+2023-10-03 13:33:49.367  INFO 16344 --- [XNIO-1 I/O-9] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2023-10-03 13:35:10.592  INFO 16344 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62785
+2023-10-03 13:35:10.593  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 13:35:10.594  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 13:35:10.596  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 13:35:32.192  INFO 16344 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62785 -- CloseStatus[code=1006, reason=]
+2023-10-03 13:35:32.193  INFO 16344 --- [XNIO-1 I/O-7] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 13:36:07.166  INFO 16344 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62815
+2023-10-03 13:36:07.167  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 13:36:07.168  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 13:36:07.170  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 13:36:21.435  INFO 16344 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62815 -- CloseStatus[code=1006, reason=]
+2023-10-03 13:36:21.435  INFO 16344 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 13:36:28.680  INFO 16344 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62831
+2023-10-03 13:36:28.681  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 13:36:28.682  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 13:36:28.683  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 13:36:54.517  INFO 16344 --- [XNIO-1 I/O-16] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62831 -- CloseStatus[code=1006, reason=]
+2023-10-03 13:36:54.517  INFO 16344 --- [XNIO-1 I/O-16] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 13:37:15.934  INFO 16344 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62859
+2023-10-03 13:37:15.935  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 13:37:15.937  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 13:37:15.938  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 13:38:01.439  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/f6cj87djc6glq6t6/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"voice": {"sessionId": "a891b654e986557b532aca61ea5d9ea5", "token": "ef7f06bd67eaea26", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 13:38:05.615  INFO 16344 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ignite zedd"
+2023-10-03 13:38:06.095  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ignite zedd
+2023-10-03 13:38:06.097  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:ignite+zedd, client=0:0:0:0:0:0:0:1
+2023-10-03 13:38:06.100  INFO 16344 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is CgtVb0JCVzdSS1E2WSiX5-6oBjIICgJWThICGgA6CiCGw5yW9PLsjWU%3D).
+2023-10-03 13:38:06.100  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/f6cj87djc6glq6t6/players/1150651592589189130?noReplace=False, client=0:0:0:0:0:0:0:1, payload={"encodedTrack": "QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA", "position": 0, "volume": 50}
+2023-10-03 13:38:06.104  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/decodetrack?encodedTrack=QAAAngIAM0lnbml0ZSAoZnQuIFplZGQpIHwgV29ybGRzIDIwMTYgLSBMZWFndWUgb2YgTGVnZW5kcwARTGVhZ3VlIG9mIExlZ2VuZHMAAAAAAAN2uAALWmFzeDloam80V1kAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aYXN4OWhqbzRXWQAHeW91dHViZQAAAAAAAAAA, client=127.0.0.1
+2023-10-03 13:38:06.210  INFO 16344 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtkX2E1VS01OXEyMCjO7e6oBjIICgJWThICGgA6CiDi846K4NntjWU%3D, next update will be after 600 seconds.
+2023-10-03 13:38:10.999  INFO 16344 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:hero cash cash"
+2023-10-03 13:38:11.418  INFO 16344 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: hero cash cash
+2023-10-03 13:38:11.420  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:hero+cash+cash, client=127.0.0.1
+2023-10-03 13:38:23.457  INFO 16344 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/f6cj87djc6glq6t6/players/1150651592589189130, client=127.0.0.1, payload={"paused": true}
+2023-10-03 13:38:23.458  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/f6cj87djc6glq6t6/players/1150651592589189130, client=0:0:0:0:0:0:0:1, payload={"paused": true}
+2023-10-03 13:39:06.796  INFO 16344 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62859 -- CloseStatus[code=1006, reason=]
+2023-10-03 13:39:06.796  INFO 16344 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 13:40:44.748  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62977
+2023-10-03 13:40:44.754  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 13:40:44.755  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 13:40:44.756  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 13:40:48.662  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/l7ef5qywety8o26a/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "50b06e45c71a570e267d73ac5bed5c19", "token": "149daf32dc484ec9", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 13:40:52.146  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : DELETE /v3/sessions/l7ef5qywety8o26a/players/1150651592589189130, client=127.0.0.1
+2023-10-03 13:40:58.314  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/l7ef5qywety8o26a/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "50b06e45c71a570e267d73ac5bed5c19", "token": "9aea5b940876f725", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 13:41:01.023  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : DELETE /v3/sessions/l7ef5qywety8o26a/players/1150651592589189130, client=127.0.0.1
+2023-10-03 13:41:29.921  INFO 16344 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62977 -- CloseStatus[code=1006, reason=]
+2023-10-03 13:41:29.921  INFO 16344 --- [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-03 13:41:38.909  INFO 16344 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:63010
+2023-10-03 13:41:38.911  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=0:0:0:0:0:0:0:1
+2023-10-03 13:41:38.912  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Wavelink/2.6.4
+2023-10-03 13:41:38.913  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /version, client=127.0.0.1
+2023-10-03 13:41:45.664  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/lgz60bya7v71iff5/players/1150651592589189130, client=127.0.0.1, payload={"voice": {"sessionId": "b6871ed2844d2cecec88f66be1823ae0", "token": "68aa535acb9cbf17", "endpoint": "hongkong6904.discord.media:443"}}
+2023-10-03 13:41:52.700  INFO 16344 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : DELETE /v3/sessions/lgz60bya7v71iff5/players/1150651592589189130, client=127.0.0.1
