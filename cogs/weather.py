@@ -1,9 +1,8 @@
 import discord
-import os
-import requests
-
 from discord.ext import commands
+import os
 from dotenv import load_dotenv
+import requests
 
 
 WEATHER_KEY = os.getenv('OPENWEATHERMAP_KEY')

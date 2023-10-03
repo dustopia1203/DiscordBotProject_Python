@@ -1,19 +1,20 @@
 import discord
-import os
-import asyncio
-
 from discord.ext import commands
+import os
 from dotenv import load_dotenv
+import asyncio
 
 
 load_dotenv()
+
+
 BOT_TOKEN = os.getenv('DISCORD_BOT_TOKEN') 
-CHANNEL_ID = int(os.getenv('CHANNEL_DISCORD_ID'))
 
 
 intents = discord.Intents.all()
 intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
+CHANNEL_ID = int(os.getenv('CHANNEL_DISCORD_ID'))
 
 
 @bot.event
@@ -36,7 +37,7 @@ async def on_member_remove(member):
 
 
 @bot.command()
-async def cls(ctx, ammount=""):
+async def clear(ctx, ammount=""):
     ''' Clear messages '''
     if ammount == "" or ammount == "all":
         await ctx.channel.purge(limit=None)

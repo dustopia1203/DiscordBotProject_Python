@@ -1,18 +1,15 @@
 import discord
-import os
-import asyncio
-
 from discord.ext import commands
-from dotenv import load_dotenv
+import os
 from bardapi import Bard
+from dotenv import load_dotenv
+import asyncio
 
 
 load_dotenv()
 BARDAPI_KEY = os.getenv('BARDAPI_KEY')
-CHANNEL_ID = int(os.getenv('CHANNEL_DISCORD_ID'))
-
-
 bard = Bard(token=BARDAPI_KEY)
+CHANNEL_ID = int(os.getenv('CHANNEL_DISCORD_ID'))
 
 
 class BardAI(commands.Cog):

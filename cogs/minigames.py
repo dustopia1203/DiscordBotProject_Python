@@ -1,7 +1,6 @@
 import discord
-import asyncio
-
 from discord.ext import commands
+import asyncio
 from tictactoe import *
 from rps import *
 
